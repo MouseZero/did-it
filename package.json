@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack",
     "watch": "webpack-dev-server",
-    "format": "prettier --no-semi --write src/**/*.jsx"
+    "format": "prettier --no-semi --write src/**/*.{js,jsx}"
   },
   "husky": {
     "hooks": {

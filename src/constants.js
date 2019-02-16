@@ -1,1 +1,1 @@
-export const HABIT_KEY = 'habits'
+export const HABIT_KEY = "habits"

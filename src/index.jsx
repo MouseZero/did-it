@@ -1,10 +1,15 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import CreateHabit from "./CreateHabit"
 
-import CreateHabit from "./CreateHabit.jsx"
+const styles = {
+  container: {
+    marginTop: "3rem"
+  }
+}
 
 ReactDOM.render(
-  <div style={{ marginTop: "3rem" }} className="container">
+  <div style={styles.container} className="container">
     <div className="row">
       <div className="column">
         <CreateHabit />

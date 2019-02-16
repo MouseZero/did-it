@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 function CreateHabit(props) {
   return (
@@ -6,7 +6,7 @@ function CreateHabit(props) {
       <input type="text" />
       <button>Submit</button>
     </>
-  );
+  )
 }
 
-export default CreateHabit;
+export default CreateHabit

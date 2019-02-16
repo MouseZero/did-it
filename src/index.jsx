@@ -1,7 +1,7 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from "react"
+import ReactDOM from "react-dom"
 
-import CreateHabit from "./CreateHabit.jsx";
+import CreateHabit from "./CreateHabit.jsx"
 
 ReactDOM.render(
   <div style={{ marginTop: "3rem" }} className="container">
@@ -12,4 +12,4 @@ ReactDOM.render(
     </div>
   </div>,
   document.getElementById("root")
-);
+)
